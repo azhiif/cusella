@@ -236,6 +236,8 @@ USE_TZ = True
 
 # Disable audit logging during demo data load
 AUDITLOG_DISABLE_ON_RAW_SAVE = True
+APSCHEDULER_AUTOSTART = False
+
 
 
 # Production settings
