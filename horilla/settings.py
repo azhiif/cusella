@@ -234,6 +234,10 @@ USE_L10N = True
 
 USE_TZ = True
 
+# Disable audit logging during demo data load
+AUDITLOG_DISABLE_ON_RAW_SAVE = True
+
+
 # Production settings
 if not DEBUG:
     SECURE_BROWSER_XSS_FILTER = True
